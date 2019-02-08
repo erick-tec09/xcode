@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+  /*------------------------------FUENTES NEXA lIGHT------------------------------ */
+@font-face {
+    font-family: "NexaLight";
+    src: url("../../fonts/NexaLight.eot"); /* IE9 Compat Modes */
+    src: url("../../fonts/NexaLight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("../../fonts/NexaLight.otf") format("opentype"), /* Open Type Font */
+      url("../../fonts/NexaLight.svg") format("svg"), /* Legacy iOS */
+      url("../fonts/NexaLight.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("../../fonts/NexaLight.woff") format("woff"), /* Modern Browsers */
+      url("../../fonts/NexaLight.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+/*------------------------------FUENTES NEXA BOLD------------------------------ */ 
+@font-face {
+    font-family: "NexaBold";
+    src: url("../../fonts/NexaBold.eot"); /* IE9 Compat Modes */
+    src: url("../../fonts/NexaBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("../../fonts/NexaBold.otf") format("opentype"), /* Open Type Font */
+      url("../../fonts/NexaBold.svg") format("svg"), /* Legacy iOS */
+      url("../../fonts/NexaBold.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("../../fonts/NexaBold.woff") format("woff"), /* Modern Browsers */
+      url("../../fonts/NexaBold.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+body{
+    margin: 0;
+    padding: 0;
+   
+   
+}
+   

@@ -1,0 +1,161 @@
+
+footer {
+    
+    background: #0E131B;
+    display: flex;
+    font-family: "NexaLight";
+    letter-spacing: 1px;
+    flex-direction: column;
+    padding: 20px 0px;
+    
+    .contenedor__foothers{
+       
+        margin: auto;
+
+    }
+    .title_company{
+        color: #fff;
+        padding: 20px 0px;
+        font-size: 17px;
+    }
+    .contenedor__foother{
+        display: flex;
+        flex-direction: row;
+       
+        
+    
+    }
+    p{
+        color: #fff;
+        padding: 20px 0px;
+        font-size: 17px;
+       b{
+            font-weight: bold;
+            font-family: "NexaBold";
+       }
+    }
+    nav{
+        padding: 10px 0px;
+       
+    }
+    ul{
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        
+        
+
+        
+        height: 50px;
+
+    }
+    li{
+
+        list-style: none;
+        color: #fff;
+        margin-right: 12px;
+       
+       
+
+    }
+    a{
+       text-decoration: none;
+        color: #fff;
+        
+        font-size: 12px;
+        font-family: "NexaLight";
+        
+    }
+    .container__calcenter{
+        padding-left: 50px;
+        padding-top: 12px;
+       
+       
+
+    }
+    .contact__number{
+        display: flex;
+        padding: 0;
+        font-size: 12px;
+        
+        img{
+            margin-left: -25px;
+        }
+        
+    }
+    .contact__desc{
+        
+        font-size: 12px;
+        padding: 5px 0px;
+        
+       
+        
+       
+    } 
+}
+
+// ----------------------Media Query---------------------- //
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+    
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .contenedor__foothers{
+
+        
+       
+       
+        .contenedor__foother{
+          
+          
+           
+
+        }
+    }
+  }
+ }
+
+ @media (min-width: 1000px) { 
+    .contenedor__foothers{
+
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      
+       
+      
+        .contenedor__foother{
+            
+            
+          
+            nav ul{
+                
+
+
+                li{
+                    padding: 0px 15px;
+                  
+                }
+
+            }
+        .container__calcenter{
+
+            margin-left: 100px;
+            }    
+
+        }
+    }
+  }
+ 
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

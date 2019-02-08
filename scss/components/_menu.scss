@@ -1,0 +1,62 @@
+header{
+    background: rgba(248, 248, 248, 0.096);
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid rgba(248, 248, 248, 0.096);
+    .container_logo_bars{
+        
+        width: 100%;
+        padding: 20px 10px;
+       
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+       
+        
+        
+    }
+    .logo_coder{
+
+    }
+    .icon__bars{
+        i{
+            color: #fff;
+            font-size: 30px;
+            &:hover{
+                cursor: pointer;
+                color: #207478;
+                transition: all 0.8s;
+            }
+        }
+    }
+
+    nav{
+
+        background: #207478;
+        position: absolute;
+        top: 0;
+        left: -100%;;
+       
+        ul{
+            li{
+                padding: 10px 0px;
+                &:hover{
+                    background: #00434d;
+                }
+                a{
+                    font-family: "NexaLight";
+                    color: #fff;
+                    font-size: 17px;
+                    padding-left: 10px;
+                   
+                }
+            }
+        }
+    }
+}
+

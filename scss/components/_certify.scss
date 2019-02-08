@@ -1,0 +1,131 @@
+.certify__container{
+    
+    background-image: url(../../images/img_Fondo/Index_2.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+   
+   
+    .container__certifi{
+        h2{
+        padding-top: 40px;
+      
+            
+        font-family: "NexaLight";
+        color: #fff;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+       
+        }
+
+    }  
+    
+  
+}
+
+.certify__items{
+    
+    color: #fff;
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   justify-content: flex-start;
+ 
+   align-content: center;
+   
+  
+   padding: 40px 0px;
+  
+    article{
+        width: 200px;
+        padding: 20px 20px;
+        margin: 25px 10px;
+        height: 300px;
+       
+      
+       
+      
+       
+    }
+    h3{
+        font-family: "NexaLight";
+        margin-top: 10px;
+    }
+    p{
+        font-family: "NexaLight";
+        padding: 20px 0px;
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    a{
+      text-decoration: none;
+      color: #fff;
+      background: #207478;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-size: 11px;
+      margin-bottom: 20PX;
+    
+    
+      font-family: "NexaLight";
+      &:hover{
+        background: #00434D;
+        transition: all 0.5s;
+    }
+    }
+    
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+
+    .certify__items{
+        
+     
+        width: 700PX;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: auto;
+     
+        article{
+          
+            
+          
+        }
+    }
+
+  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+   
+    .certify__items{
+        
+       
+      
+        width: 900PX;
+      
+         article{
+           
+             
+           
+         }
+     }
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }
