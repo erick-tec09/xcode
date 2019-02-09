@@ -39,20 +39,25 @@ header{
 
         background: #207478;
         position: absolute;
-        top: 0;
-        left: -100%;;
+        top: 80px;;
+        left: 100%;
+        width: 100%;
+        display: none;
        
         ul{
             li{
                 padding: 10px 0px;
+                text-align: center;
                 &:hover{
                     background: #00434d;
+                    
                 }
                 a{
                     font-family: "NexaLight";
                     color: #fff;
                     font-size: 17px;
                     padding-left: 10px;
+                  
                    
                 }
             }

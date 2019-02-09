@@ -18,13 +18,7 @@ footer {
         padding: 20px 0px;
         font-size: 17px;
     }
-    .contenedor__foother{
-        display: flex;
-        flex-direction: row;
-       
-        
     
-    }
     p{
         color: #fff;
         padding: 20px 0px;
@@ -43,11 +37,6 @@ footer {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        
-        
-        
-
-        
         height: 50px;
 
     }
@@ -68,23 +57,17 @@ footer {
         font-family: "NexaLight";
         
     }
-    .container__calcenter{
-        padding-left: 50px;
-        padding-top: 12px;
-       
-       
-
-    }
     .contact__number{
-        display: flex;
+       
         padding: 0;
         font-size: 12px;
         
         img{
-            margin-left: -25px;
+            margin-right: 0px;
         }
         
     }
+   
     .contact__desc{
         
         font-size: 12px;
@@ -99,7 +82,35 @@ footer {
 // ----------------------Media Query---------------------- //
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { }
+@media (min-width: 576px) {
+
+    .contenedor__foother{
+        display: flex;
+        flex-direction: row;
+       
+        
+    
+    }
+    .container__calcenter{
+        padding-left: 50px;
+        padding-top: 12px;
+       
+       
+
+    }
+    
+    .contact__number{
+        display: flex;
+        padding: 0;
+        font-size: 12px;
+        
+        img{
+            margin-left: -25px;
+        }
+        
+    }
+
+ }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
