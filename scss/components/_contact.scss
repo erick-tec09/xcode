@@ -48,7 +48,8 @@
     input{
         border-radius: 15px;
         height: 30px;
-        background: #e0cfcf2a;
+       /*  background: #e0cfcf2a; */
+       background: pink;
         width: 330px;
       
     }
@@ -81,11 +82,14 @@
 }
 .input__style{
     color: #fff;
+    background: #52565980;
     padding-left: 15px;
 }  
 .textarea__style{
     color: #fff;
-    padding: 15px
+    background: #52565980;
+    padding: 15px;
+   
 }
 
 
@@ -153,7 +157,11 @@
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {
+
+
+
+  }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {  }

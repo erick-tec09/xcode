@@ -41,20 +41,19 @@
    padding: 40px 0px;
   
     article{
-        width: 180px;
+        width: 140px;
         padding: 20px 20px;
         margin: 25px 10px;
         height: 300px;
+     
        
-       
-      
-       
-      
        
     }
     h3{
         font-family: "NexaLight";
         margin-top: 10px;
+       
+        font-size: 13px;
     }
     p{
         font-family: "NexaLight";
@@ -84,6 +83,16 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 
+    article{
+        width: 170px;
+      
+       
+       
+      
+       
+      
+       
+    }
  }
 
 // Medium devices (tablets, 768px and up)
