@@ -17,6 +17,7 @@
         text-align: center;
         justify-content: center;
         margin: auto;
+        font-size: 30px;
        
         }
 
@@ -39,12 +40,16 @@
    
   
    padding: 40px 0px;
+   margin: auto;
+   text-align: center;
+   justify-content: center;
   
     article{
         width: 140px;
         padding: 20px 20px;
         margin: 25px 10px;
         height: 300px;
+       
      
        
        
@@ -53,7 +58,7 @@
         font-family: "NexaLight";
         margin-top: 10px;
        
-        font-size: 13px;
+        font-size: 20px;
     }
     p{
         font-family: "NexaLight";
@@ -102,13 +107,27 @@
     .certify__items{
         
      
-        width: 700PX;
-        flex-wrap: wrap;
+        width: 600PX;
+        text-align: center;
         justify-content: flex-start;
-        margin: auto;
-     
+        justify-items: center;
+        margin: 0px auto;
+       
         article{
+            width: 230px;
+          h3{
+
+            
+            font-size: 20px;
+          }
+          p{
+
+            font-size: 15px;
           
+          }
+          a{
+
+          }
             
           
         }
@@ -124,10 +143,24 @@
         
        
       
-        width: 900PX;
+        width: 800PX;
+       
+       
       
          article{
            
+            width: 230px;
+            h3{
+                font-size: 23px;
+            }
+            p{
+  
+            }
+            a{
+                
+            }
+          
+          
              
            
          }
@@ -137,5 +170,14 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
+    h3{
+
+    }
+    p{
+
+    }
+    a{
+        
+    }
 
  }

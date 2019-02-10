@@ -35,9 +35,7 @@
             text-align: center;
             display: flex;
             flex-direction: column;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            
+           
             background: rgba(0, 0, 0, 0.26);
          
             &:hover{
@@ -55,13 +53,14 @@
             font-family: "NexaBold";
             width: 200px;
             height: 100px;
-            font-size: 20px;
+            font-size: 17px;
             text-align: center;
             margin: 50px auto;
             padding-right: 0px;
             text-align: left;
             color: #fff;
-            
+            padding: 0PX 20PX;
+           
                        
             
 
@@ -75,6 +74,7 @@
             margin: 30px auto;
             font-family: "NexaLight";
             font-size: 16px;
+          padding: 20PX 0PX;
           
           
            
@@ -87,14 +87,30 @@
 // ----------------------Media Query---------------------- //
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+@media (min-width: 546px) {
     h3{
          
        
         font-size: 23px;
                           
-        
+    }
 
+        .desc_serv{
+            
+           
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0PX 20PX;
+            a{
+              
+                
+              
+              
+               
+               
+            }
+            
+           
 
     }
  }
@@ -108,10 +124,44 @@
        
     
     }
+    h3{
+                            
+    }.desc_serv{
+                     
+           
+          
+            a{
+              
+               
+               
+               
+            }
+            
+           
+
+    }
 
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
+   
+    .galery__imtes{
+        h3{
+            font-size: 23px;
+           
+           
+        }
+        .desc_serv{
+                     
+           background: red;
+          
+           
+            
+           
+
+    }
+
+    }
    
  }
 
@@ -120,4 +170,6 @@
   }
  
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+    
+ }
