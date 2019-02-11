@@ -60,9 +60,8 @@
           color: #fff;
           font-family: "NexaLight";
           font-weight: bold;
-          font-size: 47px;
-          
-          widows: 100px;
+          font-size: 40px;
+                width: 300px;
           
 
         }
@@ -73,6 +72,7 @@
           font-family: "NexaLight";
           font-size: 15px;
           padding: 20px 0px;
+          width: 300px;
         }
         a{
          
@@ -864,3 +864,116 @@ $cubOut: cubic-bezier(.67,-0.16,.47,1.61);
     }
   }
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { }
+
+
+@media (min-width: 600px) {
+
+
+  .fnc-slide__content{
+        
+    
+    width: 100%;
+     
+      h2{
+       font-size: 57px;
+       
+       width: 700px;
+      
+      
+      }
+      p{
+        font-size: 15px;
+        width: 300px;
+      }
+      a{
+        font-size: 12px;
+       
+      }
+  }
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+  
+  .fnc-slider .fnc-slide__content h2 {
+   
+    font-size: 47px;
+    width: 600px;
+   
+}
+
+.fnc-slider .fnc-slide__content p {
+  
+  font-size: 23px;
+  width: 550px;
+}
+
+
+
+ 
+.fnc-slider .fnc-slide__content a{
+  
+  font-size: 20px;
+ 
+}
+
+
+ }
+ @media (min-width: 800px) {
+
+  .fnc-slide__content{
+
+   
+  }
+
+  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+
+  .fnc-nav{
+    margin-left: 55px;
+  }
+  .fnc-slide__content{
+
+    margin-left: 55px;
+      h2{
+       
+        width: 900px;
+      }
+  }
+
+  
+  .fnc-slider .fnc-slide__content h2 {
+    color: #fff;
+    font-family: "NexaLight";
+    font-weight: bold;
+    font-size: 47px;
+    width: 700px;
+}
+
+.fnc-slider .fnc-slide__content p {
+  
+  font-size: 23px;
+  width: 550px;
+}
+
+ }
+
+ 
+.fnc-slider .fnc-slide__content a{
+  
+  font-size: 20px;
+ 
+}
+
+ 
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

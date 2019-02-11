@@ -15,7 +15,7 @@ header{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-       
+        overflow: hidden;
        
         
         
@@ -40,18 +40,27 @@ header{
         background: #207478;
         position: absolute;
         top: 80px;;
-        left: 100%;
+        left: -100%;
         width: 100%;
-        display: none;
+        transition: all 0.10s;
+        
+       
+        
+     
        
         ul{
             li{
                 padding: 10px 0px;
                 text-align: center;
+                border-bottom: 1px solid rgba(248, 248, 248, 0.096);
+                
+                
                 &:hover{
                     background: #00434d;
+                    transition: all 0.8s;
                     
                 }
+                
                 a{
                     font-family: "NexaLight";
                     color: #fff;
@@ -63,5 +72,72 @@ header{
             }
         }
     }
+.active_nav {
+
+    left: 0;
+   
+}  
 }
 
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+    
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+    .icon__bars{
+        display: none;
+    }
+  
+    header nav {
+        width: 700px;
+        top: 20px;
+       left: 280px; 
+       background: none;
+       
+            ul{
+                 display: flex;
+                 justify-content: center;
+                 justify-items: center;
+                
+                 
+                    li{
+                        padding: 5px  10px;
+                         margin: 0px;
+                         border-radius: 10px;
+                         border-bottom: none;
+                       
+                          &:hover{
+                           
+                              
+                          }
+                         a{
+                            padding: 0;
+                            
+                         }
+                       
+                    }
+            }
+      
+    }
+
+    .active_seccion{
+        background: #00434d;
+    }
+  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+
+    
+    header nav {
+        
+       left: 580px; }
+ }

@@ -40,7 +40,7 @@
                                 <i class="fas fa-bars"></i>
                             </div>
                   </div>  
-                   
+        </div>           
                     <nav>
                         <ul>
                             <li><a href="">Inicio</a></li>
@@ -48,12 +48,12 @@
                             <li><a href="">Servicios</a></li>
                             <li><a href="">Contáctanos</a></li>
                             <li><a href="">Preinscríbete</a></li>
-                            <li><a href="">Iniciar Sesión</a></li>
+                            <li  class="active_seccion"><a href="">Iniciar Sesión</a></li>
                         
                         </ul>
                 
                     </nav>
-        </div>
+       
 
     </div>
 
@@ -65,6 +65,7 @@
 
 
 
+
 <div class="demo-cont">
     <!-- slider start -->
     <div class="fnc-slider example-slider">
@@ -72,11 +73,17 @@
         <!-- slide start -->
         <div class="fnc-slide m--blend-green ">
           <div class="fnc-slide__inner">
-            <div class="fnc-slide__mask"> </div>
-            <div class="fnc-slide__content">
-                <h2 class="animated  bounceInLeft 2s">Prepárate para el futuro</h2>
-                <p>Especialízate en los cursos de alta demanda en el mercado laboral.</p>
-                <a href="">Conócelos</a>
+           
+            <div class="fnc-slide__content container">
+                <div class="row">
+                    <div class="col-12">
+                            <h2 class="animated  bounceInLeft 2s">Prepárate para el futuro</h2>
+                            <p>Especialízate en los cursos de alta demanda en el mercado laboral.</p>
+                            <a href="">Conócelos</a>
+                    </div>
+
+                </div>
+              
              
             </div>
           </div>
@@ -85,13 +92,20 @@
         <!-- slide start -->
         <div class="fnc-slide m--blend-dark">
           <div class="fnc-slide__inner">
-            <div class="fnc-slide__mask">
-              
-            </div>
-            <div class="fnc-slide__content">
-                <h2>¿Quieres mejorar los procesos de tu empresa?</h2>
-                <p>Desarrollamos el software que tanto necesitas para aumentar la eficacia de tu empresa.</p>
-                <a href="">Conoce más</a>
+            <div class="fnc-slide__content container">
+
+            
+                    <div class="row">
+                        <div class="col-12">
+                                <h2>¿Quieres mejorar los procesos de tu empresa?</h2>
+                                <p>Desarrollamos el software que tanto necesitas para aumentar la eficacia de tu empresa.</p>
+                                <a href="">Conoce más</a>
+                        </div>
+
+                    </div>
+
+               
+               
             
              
              
@@ -103,13 +117,16 @@
         <!-- slide start -->
         <div class="fnc-slide m--blend-red">
           <div class="fnc-slide__inner">
-            <div class="fnc-slide__mask">
-              
-            </div>
-            <div class="fnc-slide__content">
-                <h2>Ya es hora de una  App para tu empresa</h2>
-                <p>Incrementa tus clientes y brindales una  experiencia única con tu App.</p>
-                <a href="">Cotizar una App</a>
+            <div class="fnc-slide__content container">
+
+                <div class="row">
+                    <div class="col-12">
+                            <h2>Ya es hora de una  App para tu empresa</h2>
+                            <p>Incrementa tus clientes y brindales una  experiencia única con tu App.</p>
+                            <a href="">Cotizar una App</a>
+                    </div>
+                </div>
+                
             </div>
           </div>
         </div>
@@ -142,30 +159,8 @@
         </div>
       </nav>
     </div>
-    <!-- slider end -->
-    <div class="demo-cont__credits">
-      <div class="demo-cont__credits-close"></div>
-      <h2 class="demo-cont__credits-heading">Made by</h2>
-      <img src="images/img_Fondo/Index_1.png" alt="" class="demo-cont__credits-img" />
-      <h3 class="demo-cont__credits-name">Nikolay Talanov</h3>
-      <a href="https://codepen.io/suez/" target="_blank" class="demo-cont__credits-link">My codepen</a>
-      <a href="https://twitter.com/NikolayTalanov" target="_blank" class="demo-cont__credits-link">My twitter</a>
-      <h2 class="demo-cont__credits-heading">Based on</h2>
-      <a href="https://dribbble.com/shots/2375246-Fashion-Butique-slider-animation" target="_blank" class="demo-cont__credits-link">Concept by Kreativa Studio</a>
-      <h4 class="demo-cont__credits-blend">Global Blend Mode</h4>
-      <div class="colorful-switch">
-        <input type="checkbox" class="colorful-switch__checkbox js-activate-global-blending" id="colorful-switch-cb" />
-        <label class="colorful-switch__label" for="colorful-switch-cb">
-          <span class="colorful-switch__bg"></span>
-          <span class="colorful-switch__dot"></span>
-          <span class="colorful-switch__on">
-            <span class="colorful-switch__on__inner"></span>
-          </span>
-          <span class="colorful-switch__off"></span>
-        </label>
-      </div>
-    </div>
-  </div>
+   
+</div>
 
 
 
@@ -184,7 +179,7 @@
                                             
                                         <h3>Power BI</h3>
                                         <p>Breve descripción de la utilidad de este software máx 2 lineas.</p>
-                                        <a href="">Ver Sílabus</a>
+                                        <a href="docs/Power BI_Basico.pdf" target="_blank">Ver Sílabus</a>
                             
                                 
                                 
@@ -463,6 +458,15 @@
 
 
 <script src="js/slider.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+
+        $(document).ready(function(){
+            $('.icon__bars').click(function(){
+                $('nav').toggleClass('active_nav');
+            })
+        })
+</script>
 
 
 
