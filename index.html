@@ -10,7 +10,10 @@
     <meta name="description" content="Aprende desde cero a crear el futuro de la web. Cursos de Desarrollo, Diseño, Marketing, y Negocios.">
     <meta name="keywords" content="Cursos">
 
-    
+     <!--Open Graphs-->
+
+     <!--icono-->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon-20190212124733470.ico">
    <!--link css y recursos-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
@@ -18,6 +21,19 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
+
+    <script src="js/smooth-scroll.min.js"></script>
+
+    
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+             // All animations will take exactly 500ms
+            var scroll = new SmoothScroll('a[href*="#"]', {
+                speed: 1500,
+                speedAsDuration: true
+            });
+        </script>
+    
 
 
    
@@ -43,11 +59,11 @@
         </div>           
                     <nav>
                         <ul>
-                            <li><a href="">Inicio</a></li>
-                            <li><a href="">Certifícate</a></li>
-                            <li><a href="">Servicios</a></li>
-                            <li><a href="">Contáctanos</a></li>
-                            <li><a href="">Preinscríbete</a></li>
+                            <li><a data-scroll href="#section__slider">Inicio</a></li>
+                            <li><a   data-scroll href="#section__certify" >Certifícate</a></li>
+                            <li><a data-scroll href="#section_service">Servicios</a></li>
+                            <li><a data-scroll href="#section_contact">Contáctanos</a></li>
+                            <li><a data-scroll href="#section_contact">Preinscríbete</a></li>
                             <li  class="active_seccion"><a href="">Iniciar Sesión</a></li>
                         
                         </ul>
@@ -66,7 +82,7 @@
 
 
 
-<div class="demo-cont">
+<div class="demo-cont" id="section__slider">
     <!-- slider start -->
     <div class="fnc-slider example-slider">
       <div class="fnc-slider__slides">
@@ -165,7 +181,7 @@
 
 
 
-<section class="certify__container">
+<section class="certify__container" id="section__certify">
 
     <div class="container">
         <div class="row">
@@ -179,7 +195,7 @@
                                             
                                         <h3>Power BI</h3>
                                         <p>Breve descripción de la utilidad de este software máx 2 lineas.</p>
-                                        <a href="docs/Power BI_Basico.pdf" target="_blank">Ver Sílabus</a>
+                                        <a href="docs/Power_BI_Basico.pdf" target="_blank">Ver Sílabus</a>
                             
                                 
                                 
@@ -189,28 +205,28 @@
                                         <img src="images/Logo_Ionic 3.png" alt=" Certifícate en Power BI">
                                         <h3>Ionic 3</h3>
                                         <p>Breve descripción de la utilidad de este software máx 2 lineas.</p>
-                                        <a href="">Ver Sílabus</a>
+                                        <a  href="docs/Ionic_3.pdf" target="_blank">Ver Sílabus</a>
                         
                                 </article>
                                 <article>
                                         <img src="images/Logo_Angular 6.png" alt="Certifícate en Curso Angular 6">
                                         <h3>Angular 6</h3>
                                         <p>Breve descripción de la utilidad de este software máx 2 lineas.</p>
-                                        <a href="">Ver Sílabus</a>
+                                        <a href="docs/Angular_6.pdf" target="_blank">Ver Sílabus</a>
                         
                                 </article>
                                 <article>
                                         <img src="images/Logo_Power BI.png" alt="Certifícate en Desarrollo Web">
                                         <h3>Desarrollo Web</h3>
                                         <p>Breve descripción de la utilidad de este software máx 2 lineas.</p>
-                                        <a href="">Ver Sílabus</a>
+                                        <a href="docs/Desarrollo_Web.pdf" target="_blank">Ver Sílabus</a>
                         
                                 </article>
                                 <article>
                                         <img src="images/Logo_SQL.png" alt="Certifícate en SQL 2016">
                                         <h3>SQL Server 2016</h3>
                                         <p>Breve descripción de la utilidad de  este software máx 2 lineas.</p>
-                                        <a href="">Ver Sílabus</a>
+                                        <a href="docs/Base de Datos _SQL.pdf" target="_blank">Ver Sílabus</a>
                         
                                 </article>
                         
@@ -318,7 +334,7 @@
 
 </section>
 
-<section class="galery__container">
+<section class="galery__container" id="section_service">
 
 
     <div class="galery__imtes">
@@ -366,7 +382,7 @@
 
 </section>
 
-<section class="contactenos_container">
+<section class="contactenos_container" id="section_contact">
     <div class="container">
         <div class="row">
             <div class="col-12 contenedor_items">
