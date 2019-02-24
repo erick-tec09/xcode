@@ -23,14 +23,17 @@
       z-index: 2;
       position: absolute;
       left: 10%;
-      top: 35%;
+      top: 45%;
       padding: 0px 10px; }
       .fnc-slider .fnc-slide__content h2 {
         color: #fff;
         font-family: "NexaLight";
-        font-weight: bold;
-        font-size: 40px;
-        width: 300px; }
+        font-weight: 900;
+        font-size: 55px;
+        width: 400px;
+        line-height: 50px;
+        text-align: left;
+        letter-spacing: 2px; }
       .fnc-slider .fnc-slide__content p {
         width: 360px;
         color: #fff;
@@ -42,9 +45,9 @@
         font-family: "NexaLight";
         color: #fff;
         background: #207478;
-        padding: 5px 20px;
+        font-size: 15px;
+        padding: 8px 20px;
         border-radius: 15px;
-        font-size: 12px;
         text-decoration: none; }
         .fnc-slider .fnc-slide__content a:hover {
           -webkit-transition: all 0.5s;
@@ -531,6 +534,10 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     background: rgba(0, 0, 0, 0.2); }
   .example-slider .fnc-nav {
     overflow: hidden;
@@ -756,9 +763,7 @@ body {
       width: 700px; }
     .fnc-slide__content p {
       font-size: 15px;
-      width: 300px; }
-    .fnc-slide__content a {
-      font-size: 12px; } }
+      width: 300px; } }
 
 @media (min-width: 768px) {
   .fnc-slider .fnc-slide__content h2 {
@@ -766,9 +771,7 @@ body {
     width: 600px; }
   .fnc-slider .fnc-slide__content p {
     font-size: 23px;
-    width: 550px; }
-  .fnc-slider .fnc-slide__content a {
-    font-size: 20px; } }
+    width: 550px; } }
 
 @media (min-width: 992px) {
   .fnc-nav {
@@ -786,6 +789,3 @@ body {
   .fnc-slider .fnc-slide__content p {
     font-size: 23px;
     width: 550px; } }
-
-.fnc-slider .fnc-slide__content a {
-  font-size: 20px; }
