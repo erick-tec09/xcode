@@ -1,25 +1,23 @@
 .up {
   position: fixed;
-  background: #207478;
   color: #fff;
   cursor: pointer;
   bottom: 100px;
-  right: 40px;
+  right: 30px;
   width: 52px;
   height: 52px;
   line-height: 52px;
   border-right: 20px;
   z-index: 10;
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
   -webkit-transition: all 0.3;
   -o-transition: all 0.3;
   transition: all 0.3;
   border-radius: 5px; }
   .up:hover {
-    background: #175d61;
     cursor: pointer;
-    font-size: 27px;
+    font-size: 40px;
     -webkit-transition: all 0.3;
     -o-transition: all 0.3;
     transition: all 0.3; }
@@ -154,6 +152,7 @@
         transition: transform 0.7s 1.22222s, opacity 0.35s 1.22222s, -webkit-transform 0.7s 1.22222s;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
+        background: red;
         opacity: 1; }
       .m--previous-slide .fnc-slide__mask {
         -webkit-transition: opacity 0.35s 0.68333s, -webkit-transform 0.7s 0.33333s;

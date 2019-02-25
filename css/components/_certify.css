@@ -1,0 +1,88 @@
+.certify__container {
+  background-image: url(../images/img_Fondo/Index_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+  .certify__container .container__certifi h2 {
+    padding-top: 40px;
+    font-family: "NexaLight";
+    color: #fff;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 30px; }
+
+.certify__items {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 40px 0px; }
+  .certify__items article {
+    width: 150px;
+    padding: 20px 20px;
+    height: 320px;
+    text-align: center; }
+  .certify__items h3 {
+    font-family: "NexaLight";
+    margin-top: 10px;
+    font-size: 20px;
+    height: 40px;
+    text-align: center; }
+  .certify__items p {
+    font-family: "NexaLight";
+    padding: 20px 0px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    height: 90px; }
+  .certify__items a {
+    text-decoration: none;
+    color: #fff;
+    background: #207478;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 11px;
+    margin-bottom: 20PX;
+    font-family: "NexaLight"; }
+    .certify__items a:hover {
+      background: #00434D;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+
+@media (min-width: 576px) {
+  article {
+    width: 190px; } }
+
+@media (min-width: 768px) {
+  .certify__items {
+    width: 600PX;
+    text-align: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    justify-items: center;
+    margin: 0px auto; }
+    .certify__items article {
+      width: 230px; }
+      .certify__items article h3 {
+        font-size: 20px; }
+      .certify__items article p {
+        font-size: 15px; } }
+
+@media (min-width: 992px) {
+  .certify__items {
+    width: 800PX; }
+    .certify__items article {
+      width: 230px; }
+      .certify__items article h3 {
+        font-size: 23px; } }

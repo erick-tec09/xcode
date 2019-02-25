@@ -1,23 +1,23 @@
 .up{
   position: fixed;
-    background: #207478;
+  
     color: #fff;
     cursor: pointer;
     bottom: 100px;
-    right: 40px;
+    right: 30px;
     width: 52px;
     height: 52px;
     line-height: 52px;
     border-right: 20px;
     z-index: 10;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     transition: all 0.3;
     border-radius: 5px;
     &:hover{
-      background: #175d61;
+     
       cursor: pointer;
-      font-size: 27px;
+      font-size: 40px;
       transition: all 0.3;
     }
    
@@ -145,6 +145,7 @@
 
       .m--navbg-#{$colorTheme} {
         background-color: $bgColor;
+       
       }
     }
   }
@@ -168,6 +169,7 @@
       transition: transform $slidingAT $slidingDelay $easing;
       transform: translate3d(0,0,0);
      
+     
       
     }
 
@@ -181,6 +183,7 @@
       .m--global-blending-active &,
       .m--blend-bg-active & {
         background-blend-mode: $blendMode;
+        
        
       }
 
@@ -222,6 +225,7 @@
       .m--active-slide & {
         transition: transform $maskAT $activeDelay, opacity $maskAT/2 $activeDelay;
         transform: translate3d(0,0,0);
+        background: red;
         opacity: 1;
       }
 
@@ -451,6 +455,7 @@
       transition: background-color $controlAT;
 
       &.m--active-control {
+        
       
       
         
