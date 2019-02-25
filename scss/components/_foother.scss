@@ -5,18 +5,25 @@ footer {
     display: flex;
     font-family: "NexaLight";
     letter-spacing: 1px;
-    flex-direction: column;
+    
+    
     padding: 20px 0px;
+   
     
     .contenedor__foothers{
        
-        margin: auto;
+     
+      
+       
+  
 
     }
     .title_company{
         color: #fff;
         padding: 20px 0px;
         font-size: 15px;
+        text-align: center;
+      
         
     }
     
@@ -31,6 +38,10 @@ footer {
     }
     nav{
         padding: 10px 0px;
+        margin: 0px auto;
+        text-align: justify;
+        width: 300px;
+        
        
     }
     ul{
@@ -59,26 +70,34 @@ footer {
         font-family: "NexaLight";
         
     }
-    .contact__number{
+    .container__calcenter {
+        margin: 0px auto;
+        width: 300px;
        
-        padding: 0;
-        font-size: 12px;
-        
-        img{
-            margin-right: 0px;
+        .contact__number{
+       
+            padding: 0;
+            font-size: 12px;
+            
+            img{
+                margin-right: 0px;
+            }
+            
         }
-        
+       
+        .contact__desc{
+            
+            font-size: 12px;
+            padding: 5px 0px;
+            text-align: left;
+            
+           
+            
+           
+        } 
+
     }
-   
-    .contact__desc{
-        
-        font-size: 12px;
-        padding: 5px 0px;
-        
-       
-        
-       
-    } 
+    
 }
 
 // ----------------------Media Query---------------------- //
@@ -86,9 +105,12 @@ footer {
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 
+    
+
     .contenedor__foother{
         display: flex;
         flex-direction: row;
+        
        
         
     
@@ -117,7 +139,7 @@ footer {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
-    
+}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
@@ -134,16 +156,21 @@ footer {
         }
     }
   }
- }
+ 
 
  @media (min-width: 1000px) { 
-    .contenedor__foothers{
 
-        
+    
+
+   
+    .contenedor__foothers{
+      
+     
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-between;
+      
+
       
        .title_company {
           
@@ -154,7 +181,9 @@ footer {
             
             
           
-            nav ul{
+            nav {
+
+                width: 350px;
                 
 
 
@@ -170,14 +199,18 @@ footer {
             }
         .container__calcenter{
 
-            margin-left: 100px;
+            margin-left: 0px;
             
              font-size: 12px;
+             .contact__desc {
+                
+
+             }
             }    
 
         }
     }
   }
- 
+
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {  }

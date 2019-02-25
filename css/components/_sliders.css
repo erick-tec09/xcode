@@ -1,3 +1,29 @@
+.up {
+  position: fixed;
+  background: #207478;
+  color: #fff;
+  cursor: pointer;
+  bottom: 100px;
+  right: 40px;
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  border-right: 20px;
+  z-index: 10;
+  font-size: 25px;
+  text-align: center;
+  -webkit-transition: all 0.3;
+  -o-transition: all 0.3;
+  transition: all 0.3;
+  border-radius: 5px; }
+  .up:hover {
+    background: #175d61;
+    cursor: pointer;
+    font-size: 27px;
+    -webkit-transition: all 0.3;
+    -o-transition: all 0.3;
+    transition: all 0.3; }
+
 .fnc {
   /* you can add color names and their values here
   and then simply add classes like .m--blend-$colorName to .fnc-slide 
@@ -23,13 +49,13 @@
       z-index: 2;
       position: absolute;
       left: 10%;
-      top: 45%;
+      top: 42%;
       padding: 0px 10px; }
       .fnc-slider .fnc-slide__content h2 {
         color: #fff;
         font-family: "NexaLight";
         font-weight: 900;
-        font-size: 40px;
+        font-size: 30px;
         width: 300px;
         line-height: 50px;
         text-align: left;
@@ -38,14 +64,16 @@
         width: 360px;
         color: #fff;
         font-family: "NexaLight";
+        letter-spacing: 1px;
         font-size: 15px;
-        padding: 20px 0px;
+        padding: 10px 0px;
         width: 300px; }
       .fnc-slider .fnc-slide__content a {
         font-family: "NexaLight";
         color: #fff;
         background: #207478;
-        font-size: 15px;
+        font-size: 10px;
+        letter-spacing: 2px;
         padding: 8px 20px;
         border-radius: 15px;
         text-decoration: none; }
@@ -788,4 +816,6 @@ body {
     width: 700px; }
   .fnc-slider .fnc-slide__content p {
     font-size: 23px;
-    width: 550px; } }
+    width: 550px; }
+  .fnc-slider .fnc-slide__content a {
+    font-size: 12px; } }
