@@ -1,0 +1,103 @@
+footer {
+  background: #0E131B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "NexaLight";
+  letter-spacing: 1px;
+  padding: 20px 0px; }
+  footer .title_company {
+    color: #fff;
+    padding: 20px 0px;
+    font-size: 15px;
+    text-align: center; }
+  footer p {
+    color: #fff;
+    padding: 20px 0px;
+    font-size: 15px; }
+    footer p b {
+      font-weight: bold;
+      font-family: "NexaBold"; }
+  footer nav {
+    padding: 10px 0px;
+    margin: 0px auto;
+    text-align: justify;
+    width: 300px; }
+  footer ul {
+    width: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 50px; }
+  footer li {
+    list-style: none;
+    color: #fff;
+    margin-right: 12px; }
+  footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-family: "NexaLight"; }
+  footer .container__calcenter {
+    margin: 0px auto;
+    width: 300px; }
+    footer .container__calcenter .contact__number {
+      padding: 0;
+      font-size: 12px; }
+      footer .container__calcenter .contact__number img {
+        margin-right: 0px; }
+    footer .container__calcenter .contact__desc {
+      font-size: 12px;
+      padding: 5px 0px;
+      text-align: left; }
+
+@media (min-width: 576px) {
+  .contenedor__foother {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  .container__calcenter {
+    padding-left: 50px;
+    padding-top: 12px; }
+  .contact__number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    font-size: 12px; }
+    .contact__number img {
+      margin-left: -25px; } }
+
+@media (min-width: 1000px) {
+  .contenedor__foothers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .contenedor__foothers .title_company {
+      font-size: 17px; }
+    .contenedor__foothers .contenedor__foother nav {
+      width: 350px; }
+      .contenedor__foothers .contenedor__foother nav li {
+        padding: 0px 15px; }
+        .contenedor__foothers .contenedor__foother nav li a {
+          font-size: 12px; }
+    .contenedor__foothers .contenedor__foother .container__calcenter {
+      margin-left: 0px;
+      font-size: 12px; } }
