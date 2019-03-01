@@ -1,9 +1,9 @@
 .up{
-  position: fixed;
+    position: fixed;
     color: #fff;
     cursor: pointer;
     bottom: 100px;
-    right: 0px;
+    right: 50px;
     width: 52px;
     height: 52px;
     line-height: 52px;
@@ -13,6 +13,7 @@
     text-align: center;
     transition: all 0.3;
     border-radius: 5px;
+
     &:hover{
      
       cursor: pointer;
