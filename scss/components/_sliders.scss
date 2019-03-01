@@ -2,8 +2,8 @@
     position: fixed;
     color: #fff;
     cursor: pointer;
-    bottom: 90px;
-    right: 40px;
+    bottom: 50px;
+    left: 10px;
     width: 52px;
     height: 52px;
     line-height: 52px;
@@ -27,7 +27,7 @@
 /* ========================== slider in html============================= */
 img.d-block.w-100 {
   height: 65vh;
-  transform:scalex(1.8)
+  transform:scalex(1.2);
 }
 .carousel-caption {
  
@@ -60,7 +60,7 @@ img.d-block.w-100 {
   flex: 0 1 auto;
   
   width: 45px;
-  height: 7px;
+  height: 6px;
   
   border-radius: 11px;
   margin-right: 3px;
@@ -91,10 +91,10 @@ img.d-block.w-100 {
     color: #fff;
     font-family: "NexaLight";
     font-weight: 900;
-    font-size: 32px;
+    font-size: 30px;
     padding-top: 30px;
    
-    width: 320px;
+    width: 290px;
     text-align: left;
     letter-spacing: 2px;
    
@@ -119,12 +119,13 @@ img.d-block.w-100 {
    
     font-family: "NexaLight";
     color: #fff;
-    background:  #207478;
+    background:  #0E131B;
    font-size: 9px;
    padding: 5px;
     letter-spacing: 2px;
     
     border-radius: 15px;
+    transition: all 0.5s;
     width: 130px;
    
     text-decoration: none;
@@ -152,33 +153,55 @@ img.d-block.w-100 {
     height: 100%;
   }
   
-  .carousel-indicators{
-        
-    
-   
-      h2{
-       font-size: 57px;
-       
-       width: 700px;
-       background: red;
-      
-      }
-      p{
-        font-size: 15px;
-        width: 300px;
-      }
-      a{
-      
-       
-      }
-  }
+  
 
  }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
-
+  img.d-block.w-100 {
+    height: 100%;
   
+  }
+  
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  
+  h2{
+    
+    font-size: 40px;
+
+    width: 600px;
+  
+   
+    
+
+  }
+  p{
+   
+  
+    font-size: 15px;
+    
+     width: 400px;
+   
+    
+    
+  }
+  a{
+   
+   
+  }
+
+}
  
 }
 
@@ -196,8 +219,41 @@ img.d-block.w-100 {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
+  .carousel-indicators {
 
- 
+    bottom: 10%;
+   
+  }
+
+  .carousel-caption {
+    
+    h2{
+      
+      font-size: 45px;
+      width: 600px;
+    
+     
+     
+      
+  
+    }
+    p{
+     
+    
+      font-size: 15px;
+      
+       width: 400px;
+     
+      
+      
+    }
+    a{
+     
+     
+    }
+  
+  }
+   
 
   }
 
@@ -207,4 +263,41 @@ img.d-block.w-100 {
  
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+  .carousel-indicators {
+
+    bottom: 30%;
+   
+  }
+  .carousel-caption {
+    bottom: 40%;
+    
+    h2{
+      
+      font-size: 45px;
+     
+
+      width: 700px;
+     
+     
+      
+  
+    }
+    p{
+     
+    
+      font-size: 17px;
+      
+       width: 500px;
+     
+      
+      
+    }
+    a{
+      font-size: 12px;
+      width: 150px;
+     
+    }
+  
+  }
+ }

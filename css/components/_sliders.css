@@ -2,8 +2,8 @@
   position: fixed;
   color: #fff;
   cursor: pointer;
-  bottom: 90px;
-  right: 40px;
+  bottom: 50px;
+  left: 10px;
   width: 52px;
   height: 52px;
   line-height: 52px;
@@ -21,9 +21,9 @@
 /* ========================== slider in html============================= */
 img.d-block.w-100 {
   height: 65vh;
-  -webkit-transform: scalex(1.8);
-  -ms-transform: scalex(1.8);
-  transform: scalex(1.8); }
+  -webkit-transform: scalex(1.2);
+  -ms-transform: scalex(1.2);
+  transform: scalex(1.2); }
 
 .carousel-caption {
   height: 300px; }
@@ -54,7 +54,7 @@ img.d-block.w-100 {
   -webkit-box-flex: 0;
   flex: 0 1 auto;
   width: 45px;
-  height: 7px;
+  height: 6px;
   border-radius: 11px;
   margin-right: 3px;
   margin-left: 3px;
@@ -89,9 +89,9 @@ img.d-block.w-100 {
     color: #fff;
     font-family: "NexaLight";
     font-weight: 900;
-    font-size: 32px;
+    font-size: 30px;
     padding-top: 30px;
-    width: 320px;
+    width: 290px;
     text-align: left;
     letter-spacing: 2px; }
   .carousel-caption p {
@@ -105,11 +105,14 @@ img.d-block.w-100 {
   .carousel-caption a {
     font-family: "NexaLight";
     color: #fff;
-    background: #207478;
+    background: #0E131B;
     font-size: 9px;
     padding: 5px;
     letter-spacing: 2px;
     border-radius: 15px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
     width: 130px;
     text-decoration: none; }
     .carousel-caption a:hover {
@@ -121,11 +124,55 @@ img.d-block.w-100 {
 
 @media (min-width: 600px) {
   img.d-block.w-100 {
+    height: 100%; } }
+
+@media (min-width: 768px) {
+  img.d-block.w-100 {
     height: 100%; }
-  .carousel-indicators h2 {
-    font-size: 57px;
-    width: 700px;
-    background: red; }
-  .carousel-indicators p {
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .carousel-caption h2 {
+      font-size: 40px;
+      width: 600px; }
+    .carousel-caption p {
+      font-size: 15px;
+      width: 400px; } }
+
+@media (min-width: 992px) {
+  .carousel-indicators {
+    bottom: 10%; }
+  .carousel-caption h2 {
+    font-size: 45px;
+    width: 600px; }
+  .carousel-caption p {
     font-size: 15px;
-    width: 300px; } }
+    width: 400px; } }
+
+@media (min-width: 1200px) {
+  .carousel-indicators {
+    bottom: 30%; }
+  .carousel-caption {
+    bottom: 40%; }
+    .carousel-caption h2 {
+      font-size: 45px;
+      width: 700px; }
+    .carousel-caption p {
+      font-size: 17px;
+      width: 500px; }
+    .carousel-caption a {
+      font-size: 12px;
+      width: 150px; } }
