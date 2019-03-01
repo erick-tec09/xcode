@@ -1,3 +1,4 @@
+
 .contactenos_container{
     background-image: url(../images/img_Fondo/Index_5.png) ;
     background-repeat: no-repeat;
@@ -14,12 +15,12 @@
         justify-content: center;
     }
     .contenedor_items h3{
-        color: #cbcbcb;
+        color: #fff;
         padding: 30px 0px 0px 0px;
         font-size: 43px;
         font-family: "NexaLight";
         letter-spacing: 1px;
-       text-align: center;
+        text-align: center;
        
     }
     .container__info__form{
@@ -33,6 +34,22 @@
         flex-direction: column;
         padding: 30px 0px;
         margin: auto;
+
+        .enviar__style {
+            margin: 10px 0px;
+        background: #52565980;
+        color: #fff;
+        width: 60px;
+        border-radius: 50px;
+        padding: 10px;
+        font-family: 'NexaLight', 'Arial Narrow', Arial, sans-serif;
+        &:hover{
+            background: #5256592f;
+        }
+        }
+
+       
+            
        
     }
     label{
@@ -45,7 +62,7 @@
         padding-top: 10px;  
         
     }
-    input{
+    .input__style{
         border-radius: 15px;
         height: 30px;
        background: #ffffff21;
