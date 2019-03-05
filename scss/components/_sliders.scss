@@ -25,13 +25,18 @@
 }
 
 /* ========================== slider in html============================= */
+
 img.d-block.w-100 {
-  height: 60vh;
-  transform:scalex(1.2);
+
+
+  height: 100vh;
+
+ 
 }
 .carousel-caption {
  
   height: 300px;
+  
  
 }
 .carousel-indicators {
@@ -87,6 +92,7 @@ img.d-block.w-100 {
   color: #fff;
   display: flex;
   flex-direction: column;
+  
   h2{
     color: #fff;
     font-family: "NexaLight";

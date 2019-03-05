@@ -9,24 +9,33 @@ header{
     .container_logo_bars{
         
         width: 100%;
-        padding: 20px 10px;
+        padding: 5px 10px;
        
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         overflow: hidden;
+     
        
         
         
     }
+    img.logo__coder {
+        height: 30px;
+    }
     .logo_coder{
+       
+        img{
+          
+        }
 
     }
     .icon__bars{
         i{
             color: #fff;
-            font-size: 30px;
+            margin-top: 5px;
+            font-size: 25px;
             &:hover{
                 cursor: pointer;
                 transition: all 0.8s;
@@ -38,7 +47,7 @@ header{
 
         background: #207478;
         position: absolute;
-        top: 80px;;
+        top: 45px;
         left: -100%;
         width: 100%;
         transition: all 0.10s;
@@ -100,13 +109,20 @@ header{
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
+    .container_logo_bars{
+        margin: 10px 0px;
+        
+    }
+    
+
     .icon__bars{
         display: none;
     }
   
-    header nav {
+    header
+     nav {
         width: 700px;
-        top: 20px;
+        top: 10px;
     
       
        background: none;
@@ -151,5 +167,9 @@ header{
     
     header nav {
         
-       left: 540px; }
+       left: 600px;
+       
+    
+    
+    }
  }
