@@ -31,6 +31,9 @@ footer {
         color: #fff;
         padding: 20px 0px;
         font-size: 15px;
+        padding: 13px 0px;
+        margin-bottom: 5px;
+        
        b{
             font-weight: bold;
             font-family: "NexaBold";
@@ -217,4 +220,12 @@ footer {
   }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+
+
+    footer p {
+        padding: 13px 0px;
+        margin-bottom: 5px;
+    }
+
+ }
