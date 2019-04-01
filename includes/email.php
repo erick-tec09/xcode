@@ -42,7 +42,7 @@ echo "<script>alert('Los campos marcados con * son obligatorios');location.href 
     $mail->Host = "ssl://smtp.gmail.com:465";  // Servidor de Salida.
     $mail->SMTPAuth = true; 
     $mail->Username = "contacto.macom@gmail.com";  // Correo Electrónico
-    $mail->Password = "tucontra"; // Contraseña
+    $mail->Password = "7807828bca"; // Contraseña
     
     if ($mail->Send())
     header('Location: ../index.php');

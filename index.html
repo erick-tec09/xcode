@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XtremeCoder</title>
+     <!--Descripcion web-->
+    <meta name="title" content=" Domina la tecnología con XtremeCoder">
+    <meta name="description" content="Aprende desde cero a crear el futuro de la web. Cursos de Desarrollo, Diseño, Marketing, y Negocios.">
+    <meta name="keywords" content="Cursos">
+
+     <!--Open Graphs-->
+
+     <!--icono-->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon-20190212124733470.ico">
+   <!--link css y recursos-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script src="js/smooth-scroll.min.js"></script>
+
+    
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+             // All animations will take exactly 500ms
+            var scroll = new SmoothScroll('a[href*="#"]', {
+                speed: 1500,
+                speedAsDuration: true
+            });
+        </script>
+    
+
+
+   
+
+</head>
+<body  >
+
+<div class="loading" id="cover">
+    
+    <div class="contenedor__loading">
+        <div class="objeto"></div>
+        <div class="objeto"></div>
+        <div class="objeto"></div>
+        <div class="objeto"></div>
+        <div class="objeto"></div>
+        <div class="objeto"></div>
+        <div class="objeto"></div>
+    </div>
+    
+
+</div>
+
+
+<header>
+    
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+                <div class="container_logo_bars">
+                        <div class="logo__coder">
+                                <img src="images/Logo_XTM.png" class="logo__coder" alt="XtremeCoder" title="XtremeCoder">
+                        
+                            </div>
+                             
+                            <div class="icon__bars">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                  </div>  
+        </div>           
+                    <nav>
+                        <ul>
+                            <li><a data-scroll href="#section__slider">Inicio</a></li>
+                            <li><a   data-scroll href="#section__certify" >Certifícate</a></li>
+                            <li><a data-scroll href="#section_service">Servicios</a></li>
+                            <li><a data-scroll href="#section_contact">Contáctanos</a></li>
+                            <li><a data-scroll href="#section_contact">Preinscríbete</a></li>
+                            <li  class="active_seccion"><a href="">Iniciar Sesión</a></li>
+                        
+                        </ul>
+                
+                    </nav>
+       
+
+    </div>
+
+</div>
+ 
+
+</header>
+
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/img_Fondo/Index_1.png" class="d-block w-100" id="slides-01" alt="">
+        <div class="carousel-caption ">
+            <h2 class="animated  bounceInLeft 2s"> Prepárate para el futuro</h2> <b></b>
+            <p class="animated  bounceInLeft 2s">Especialízate en los cursos de alta demanda en el mercado laboral.</p>
+            <a href="" class="animated  bounceInLeft 2s">Conócelos</a>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/img_Fondo/Index_1_2.png" class="d-block w-100"  id="slides-02" alt="">
+        <div class="carousel-caption ">
+            <h2 class="animated  bounceInLeft 2s">¿Quieres mejorar los procesos de tu empresa?</h2>
+            <p class="animated  bounceInLeft 2s">Desarrollamos el software que tanto necesitas para aumentar la eficacia de tu empresa.</p>
+             <a href=""class="animated  bounceInLeft 2s">Conoce más</a>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/img_Fondo/Index_1_3.png" class="d-block w-100" id="slides-03"  alt="">
+        <div class="carousel-caption ">
+            <h2 class="animated  bounceInLeft 2s">Ya es hora de una  App para tu empresa</h2>
+            <p class="animated  bounceInLeft 2s">Incrementa tus clientes y brindales una  experiencia única con tu App.</p>
+            <a href="" class="animated  bounceInLeft 2s">Cotizar una App</a>
+          </div>
+      </div>
+    </div>
+    
+    
+  </div>
+
+ 
+
+<div class="up">
+    <i class="fas fa-chevron-circle-up"></i>
+</div>
+
+
+<section class="certify__container" id="section__certify">
+
+    <div class="container">
+        <div class="row">
+        <div class="col-12 container__certifi">
+            
+                <h2>Certifícate en:</h2>
+                    <div class="certify__items">
+                            <article>
+                            
+                                        <img src="images/Logo_Power BI.png" alt="Certifícate en Power BI">
+                                            
+                                        <h3>Power BI</h3>
+                                        <p>Breve descripción de la utilidad de este software máx 2 lineas.</p>
+                                        <a href="docs/Power_BI_Basico.pdf" target="_blank">Ver Sílabus</a>
+                            
+                                </article>
+                                <article>
+                                        <img src="images/Logo_Ionic 3.png" alt=" Certifícate en Power BI">
+                                        <h3>Ionic 3</h3>
+                                        <p>Breve descripción de la utilidad de este software máx 2 lineas.</p>
+                                        <a  href="docs/Ionic_3.pdf" target="_blank">Ver Sílabus</a>
+                        
+                                </article>
+                                <article>
+                                        <img src="images/Logo_Angular 6.png" alt="Certifícate en Curso Angular 6">
+                                        <h3>Angular 6</h3>
+                                        <p>Breve descripción de la utilidad de este software máx 2 lineas.</p>
+                                        <a href="docs/Angular_6.pdf" target="_blank">Ver Sílabus</a>
+                        
+                                </article>
+                                <article>
+                                        <img src="images/Logo_Des Web.png" alt="Certifícate en Desarrollo Web">
+                                        <h3>Desarrollo Web</h3>
+                                        <p>Breve descripción de la utilidad de este software máx 2 lineas.</p>
+                                        <a href="docs/Desarrollo_Web.pdf" target="_blank">Ver Sílabus</a>
+                        
+                                </article>
+                                <article>
+                                        <img src="images/Logo_SQL.png" alt="Certifícate en SQL 2016">
+                                        <h3>SQL Server 2016</h3>
+                                        <p>Breve descripción de la utilidad de  este software máx 2 lineas.</p>
+                                        <a href="docs/Base de Datos _SQL.pdf" target="_blank">Ver Sílabus</a>
+                        
+                                </article>
+                                <article>
+                                    
+                    
+                            </article>
+                        
+                    </div>
+      
+        </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<section class="info__container">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                    <div class="title_info">
+                            <h2>¿Porqué Xtreme Coder?</h2>
+                    </div>
+                  
+                    <div class="info__items">
+                        <article>
+                            <div class="info_img">
+                                    <img src="images/Icon_Universal.png" alt="nuestro conocimiento">
+                            </div>
+
+                            <div class="info_desc">
+                                    <h3>Universal</h3>
+                                    <p>No nececitas conocimientos previos para tomar alguno de nuestros cursos.</p>
+                            </div>
+                            
+                          
+                    
+                    
+                        </article>
+                        <article>
+                                <div class="info_img"> 
+                                     <img src="images/Icon_Horarios.png" alt="nuestros horaarios">
+                                </div>
+                                <div class="info_desc">
+                                    <h3>Horarios</h3>
+                                    <p>Horarios flexibles y adaptables  a la solicitud de nuestros  estudiantes.</p>
+                                </div>    
+                        
+                        </article>
+                        <article>
+                                <div class="info_img"> 
+                                    <img src="images/Icon_Experiencia.png" alt=" nuestra experiencia">
+                                </div>
+                                <div class="info_desc">
+                                        <h3>Experiencia</h3>
+                                        <p>Nuestros docentes son altamente  competitivos, actualizados y muy bien reconocidos en sus labores.</p>
+                                
+                                </div>
+                              
+                        
+                        </article>
+                        <article>
+                               
+                                <div class="info_img"> 
+                                <img src="images/Icon_Respaldo.png" alt="nuestro respaldo">
+                            </div>
+                            <div class="info_desc">
+                                <h3>Respaldo</h3>
+                                <p>Certificados válidos en empresas reconocidas de nuestro Perú.</p>
+                            </div>
+                        
+                        </article>
+                        <article>
+                                <div class="info_img">
+                                     <img src="images/Icon_Soporte.png" alt="nuestro Soporte">
+                                </div>
+                                 <div class="info_desc">
+                                    <h3>Soporte</h3>
+                                    <p>Te ayudamos incluso fuera  de los turnos de clase.</p>
+                                 </div>
+                        
+                        </article>
+                        <article>
+                                <div class="info_img">
+                                    <img src="images/Icon_Beneficios.png" alt="nuestros beneficios">
+                                </div>
+                                <div class="info_desc">
+                                    <h3>Beneficios</h3>
+                                    <p>Obtendrás beneficios desde  tu primera matrícula.</p>
+                                </div>
+                        
+                        </article>
+                        
+
+            </div>
+
+        </div>
+
+    </div>
+   
+           
+
+   
+        
+    
+
+</section>
+
+<section class="galery__container" id="section_service">
+
+
+    <div class="galery__imtes">
+        <img src="images/img_Fondo/Servicios_1.png" alt="">
+
+        <div class="desc_serv">
+                <h3>DESARROLLO  DE SISTEMAS A MEDIDA</h3>
+                <a href="">COTIZA CLICANDO AQUÍ</a>
+        </div>
+        
+
+    </div>
+    <div class="galery__imtes">
+            <img src="images/img_Fondo/Servicios_2.png" alt="">
+           
+            <div class="desc_serv">
+                <h3>DESARROLLO PÁGINA WEB PERSONALIZADA</h3>
+                <a href="">COTIZA CLICANDO AQUÍ</a>
+            </div>
+    
+    </div>
+    <div class="galery__imtes">
+            <img src="images/img_Fondo/Servicios_3.png" alt="">
+            <div class="desc_serv">
+                <h3>DESARROLLO APLICACIONES MÓVILES</h3>
+                <a href="">COTIZA CLICANDO AQUÍ</a>
+
+
+            </div> 
+           
+    
+    </div>
+    <div class="galery__imtes">
+            <img src="images/img_Fondo/Servicios_4.png" alt="">
+
+            <div class="desc_serv">
+                <h3>CAPACITACIÓN  EN CURSOS TENDENCIA</h3>
+                <a href="">COTIZA CLICANDO AQUÍ</a>
+
+
+            </div> 
+           
+    
+    </div>
+
+</section>
+
+<section class="contactenos_container" id="section_contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 contenedor_items">
+                    <h3>CONTÁCTANOS</h3>
+     
+                   
+                    
+                    <div class="container__info__form">
+                            <form action="includes/email.php"  method="POST" enctype="multipart/form-data">
+                                    <label for="">Nombres</label>
+                                    <input name="txt_nombres" class="input__style" require>
+                                    <label for="">Apellidos</label>
+                                    <input name="txt_apellidos" class="input__style" require>
+                                    <label for="">E-Mail</label>
+                                    <input name="txt_correo" class="input__style"  pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" name="email" required/>
+                                    <label for="">Celular</label>
+                                    <input name="celular" class="input__style" maxlength="9" require>
+                                    <label for="">Mensaje</label>
+                                    <textarea name="comment" id="" cols="30" rows="10" class="textarea__style"  maxlength="250" require></textarea>
+                                    <input type="submit" value="Enviar"  class="enviar__style">
+                            
+                                </form>
+                        <div class="container__info">
+                            <ul class="list_titu">
+                                <li>Celular:</li>
+                                <li>E-Mail::</li>
+                                <li>Facebook:</li>
+                                <li>Instagram:</li>
+                                
+                            </ul>
+                            <ul class="list_desc">
+                                    <li>(+51) 926 387 677</li>
+                                    <li>info@xtmcoder.com</li>
+                                    <li>@xtmcoder</li>
+                                    <li>XtremeCoder.Oficial</li>
+                                    
+                            </ul>
+    
+                        </div>
+                    </div>
+                    
+            </div>
+
+        </div>
+
+    </div>
+    
+
+</section>
+
+
+<footer>
+<div class="container">
+    <div class="row">
+        <div class="col-12 contenedor__foothers">
+
+                <p class="title_company">Compañía aliada de  <b>Coder Corp S.A.C.</b> </p>
+                <div  class="contenedor__foother" >
+                        <nav>
+                                <ul>
+                                    <li><a href="">Inicio</a></li>
+                                    <li><a href="">Certifícate</a></li>
+                                    <li><a href="">Servicios</a></li>
+                                    <li><a href="">Contáctanos</a></li>
+                                    <li><a href="">Preinscríbete</a></li>
+                                    <li><a href="">Iniciar Sesión</a></li>
+                                </ul>
+                            </nav>
+                            <div class="container__calcenter">
+                                    <p class="contact__desc">  Atención al Cliente </p>
+                                   
+                                    <p class="contact__number">  <img src="images/Bandera Perú.png" alt="">(+51) 926 387 677</p>
+                            </div>
+                            
+                </div>
+                
+            
+            
+
+        </div>
+
+    </div>
+
+</div>
+    
+
+</footer>
+
+
+
+<!-- <script src="js/slider.js"></script> -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+
+        $(document).ready(function(){
+            $('.icon__bars').click(function(){
+                $('nav').toggleClass('active_nav');
+            })
+        })
+</script>
+<script>
+    $(window).on('load', function () {
+        $("#cover").fadeOut(10000);
+        });
+ </script>
+
+<script src="js/up.js" type="text/javascript"></script>
+
+
+   <!-- Initialize Swiper -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
